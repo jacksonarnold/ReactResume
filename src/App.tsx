@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Grid from '@mui/material/Unstable_Grid2/Grid2';
+import { ResumeHeader } from './components/ResumeHeader/ResumeHeader';
+import { EducationSection } from './components/EducationSection/EducationSection';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="ResumeContainer">
+                <ResumeHeader />
+                <EducationSection />
+            </div>
+        </div>
+    );
 }
 
 export default App;

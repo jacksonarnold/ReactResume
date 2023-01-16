@@ -1,0 +1,12 @@
+.headerSubContainer {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.headerInfo {
+    margin-block: .25rem;
+}
+
+.headerContactInfo {
+    margin-block: .5rem;
+}

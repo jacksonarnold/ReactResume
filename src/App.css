@@ -1,6 +1,17 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
 }
+
+.ResumeContainer {
+    width: 60%;
+    background-color: white;
+    display: inline-block;
+}
+
 
 .App-logo {
   height: 40vmin;
