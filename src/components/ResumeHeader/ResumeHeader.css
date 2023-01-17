@@ -5,8 +5,11 @@
 
 .headerInfo {
     margin-block: .25rem;
+    margin-inline: 2.5rem;
 }
 
 .headerContactInfo {
     margin-block: .5rem;
+    text-align: right;
+    margin-inline: 2.5rem;
 }

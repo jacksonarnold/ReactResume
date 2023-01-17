@@ -1,8 +1,15 @@
-import { Container } from '@mui/material';
+import { Container, List, ListItem } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import { SectionHeader } from '../SectionHeader/SectionHeader';
 
-export const ExperienceSection = (props: any) => {
+interface ExperienceSectionProps {
+    headerText: string;
+    subHeaderText: string;
+    dateField: string;
+    bullets: string[];
+}
+
+export const ExperienceSection = (props: ExperienceSectionProps) => {
     return (
         <Container sx={{ marginTop: '2rem' }}>
             <Grid
@@ -19,10 +26,24 @@ export const ExperienceSection = (props: any) => {
                 </Grid>
                 <Grid xs={12}>
                     <SectionHeader
-                        headerText="Software Egnineer"
-                        subHeaderText="Kopis"
-                        dateField="Feb 2020-Present"
+                        headerText={props.headerText}
+                        subHeaderText={props.subHeaderText}
+                        dateField={props.dateField}
                     />
+                </Grid>
+                <Grid xs={12}>
+                    <List sx={{ listStyleType: 'disc', pl: 4 }}>
+                        {props.bullets.map((item, index) => {
+                            return (
+                                <ListItem
+                                    sx={{ display: 'list-item' }}
+                                    key={index}
+                                >
+                                    <span>{item}</span>
+                                </ListItem>
+                            );
+                        })}
+                    </List>
                 </Grid>
             </Grid>
         </Container>

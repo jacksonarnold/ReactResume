@@ -25,10 +25,8 @@ export const ResumeHeader = (props: any) => {
                 }}
                 className="headerSubContainer"
             >
-                <h4 className="headerContactInfo">Phone: 864-918-6376</h4>
-                <h4 className="headerContactInfo">
-                    Email: jacksonarnold96@gmail.com
-                </h4>
+                <h4 className="headerContactInfo">864-918-6376</h4>
+                <h4 className="headerContactInfo">jacksonarnold96@gmail.com</h4>
             </Grid>
         </Grid>
     );
