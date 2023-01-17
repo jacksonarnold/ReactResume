@@ -1,0 +1,18 @@
+.sectionHeaderContainer {
+    margin-top: 0px;
+    margin-block: 0px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.sectionHeaderText {
+    margin-block: 0px;
+    padding-top: 0px;
+}
+
+.sectionDate {
+    margin-block: 0px;
+    padding-top: 0px;
+    text-align: right;
+}
+
