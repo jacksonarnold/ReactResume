@@ -1,9 +1,8 @@
-import './EducationSection.css';
-import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import { Container } from '@mui/material';
+import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import { SectionHeader } from '../SectionHeader/SectionHeader';
 
-export const EducationSection = (props: any) => {
+export const ExperienceSection = (props: any) => {
     return (
         <Container sx={{ marginTop: '2rem' }}>
             <Grid
@@ -16,13 +15,13 @@ export const EducationSection = (props: any) => {
                 }}
             >
                 <Grid xs={12}>
-                    <h3 className="sectionText">Education</h3>
+                    <h3 className="sectionText">Experience</h3>
                 </Grid>
                 <Grid xs={12}>
                     <SectionHeader
-                        headerText="Bachelors Degree in Computer Science"
-                        subHeaderText="University of South Carolina"
-                        dateField="Dec 2018"
+                        headerText="Software Egnineer"
+                        subHeaderText="Kopis"
+                        dateField="Feb 2020-Present"
                     />
                 </Grid>
             </Grid>

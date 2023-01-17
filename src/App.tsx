@@ -2,6 +2,7 @@ import './App.css';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import { ResumeHeader } from './components/ResumeHeader/ResumeHeader';
 import { EducationSection } from './components/EducationSection/EducationSection';
+import { ExperienceSection } from './components/ExperienceSection/ExperienceSection';
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <div className="ResumeContainer">
                 <ResumeHeader />
                 <EducationSection />
+                <ExperienceSection />
             </div>
         </div>
     );
