@@ -11,7 +11,7 @@ interface ExperienceSectionProps {
 
 export const ExperienceSection = (props: ExperienceSectionProps) => {
     return (
-        <Container sx={{ marginTop: '2rem' }}>
+        <Container>
             <Grid
                 container
                 spacing={1}
@@ -21,9 +21,6 @@ export const ExperienceSection = (props: ExperienceSectionProps) => {
                     textAlign: 'left',
                 }}
             >
-                <Grid xs={12}>
-                    <h3 className="sectionText">Experience</h3>
-                </Grid>
                 <Grid xs={12}>
                     <SectionHeader
                         headerText={props.headerText}
